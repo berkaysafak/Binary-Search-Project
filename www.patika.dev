@@ -1,0 +1,61 @@
+## Binary Search Project
+
+
+### [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+***
+
+
+Root:x   x=5
+
+1 - 5 < 7 olduğu için 7 rootun sağ kısmına yazılır.
+
+2 - 5 > 1 olduğu için 1 rootun sol kısmına yazılır
+
+3 - 5 < 8 olduğu için 8 rootun sağ kısmına yazılır ve ayrıca 8 > 7 nedeniyle  7'nin sağına yazılır.
+
+4 - 5 > 3 olduğu için 3 rootun sol kısmına yazılır ve ayrıca 3 > 1 nedeniyle  1'in sağına yazılır.
+
+5 - 5 < 6 olduğu için 6 rootun sağ kısmına yazılır ve ayrıca 6 < 7 nedeniyle 7' nin soluna yazılır.
+
+6 - 5 > 0 olduğu için 0 rootun sol kısmına yazılır ve ayrıca 0 < 1 nedeniyle 1'in soluna yazılır.
+
+7 - 5 < 9 olduğu için 9 rootun sağ kısmına yazılır ve ayrıca 9 > 8 sebebiyle 8'in sağına yazılır.
+
+8 - 5 > 4 olduğu için 4 rootun sol kısmına yazılır ve ayrıca 4 > 0 sebebiyle 0'ın sağına yazılır.
+
+9 - 5 > 2 olduğu için 2 rootun sol kısmına yazılır ve ayrıca 2 > 0 olduğu için 0'ın soluna yazılır.
+
+***
+
+## Binary Search Tree
+
+                                 5                                                                            
+                               /   \
+                              /     \
+                            1         7       
+                           /  \     /  \
+                          /    \   /    \
+                         0      3  6      8  
+                        /  \
+                       /    \ 
+                      2      4        
+                      
+                      
+## Berkay Şafak Gülmez
+
+### www.patika.dev
+                                                                   
+                          
+               
+               
+                      
+              
+             
+                      
+
+                  
+            
+                          
+                     
+                    
+                   
